@@ -2,7 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+
+<title>Title</title>
     <script>
         function f() {
             const e1 = document.getElementById('first').value;
@@ -10,6 +11,7 @@
             const op = document.getElementById('operator').value;
             const decimalPoint = document.getElementById('decimalPoint').value
             document.getElementById('result').value = calculate(e1, e2, op, decimalPoint)
+            alert('test');
         }
         function calculate(e1, e2, op, decimalPoint){
             // if(isNaN(e1) || isNaN(e2)){
